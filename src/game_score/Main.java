@@ -1,10 +1,12 @@
 package game_score;
 
+import game_score.controller.AppController;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+		AppController appController = new AppController();
+		appController.runApp();
 	}
 
 }

@@ -25,5 +25,11 @@ public class Player {
 		this.score = score;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return 	"--Player Ranking--"
+				+ System.lineSeparator()
+				+ "Player Name：" + playerName 
+				+ "/Score：" + score;
+	}
 }
